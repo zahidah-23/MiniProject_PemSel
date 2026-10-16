@@ -1,0 +1,83 @@
+:root {
+  --ion-color-primary: #6366f1;
+  --ion-color-primary-rgb: 99, 102, 241;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-secondary: #8b5cf6;
+  --ion-color-success: #10b981;
+  --ion-color-danger: #ef4444;
+  --ion-color-warning: #f59e0b;
+  --ion-color-light: #f8fafc;
+  --ion-color-medium: #64748b;
+  --ion-color-dark: #0f172a;
+
+  --ion-background-color: #0f172a;
+  --ion-text-color: #f8fafc;
+  --ion-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+ion-content {
+  --background: #0f172a !important;
+}
+
+ion-toolbar {
+  --background: #0f172a !important;
+  --color: #f8fafc !important;
+}
+
+ion-tab-bar {
+  --background: rgba(15, 23, 42, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255,255,255,0.08) !important;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+  padding: 8px 0 12px;
+}
+
+ion-tab-button {
+  --color-selected: #6366f1;
+  --color: #64748b;
+  transition: all 0.3s ease;
+}
+
+ion-tab-button ion-icon {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+ion-tab-button ion-label {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+ion-card {
+  --background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+ion-button {
+  --border-radius: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+ion-button:active {
+  transform: scale(0.95);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+}
